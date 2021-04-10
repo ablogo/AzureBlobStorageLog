@@ -1,0 +1,65 @@
+*obj
+*bin
+*.vscode
+*node_modules
+*wwwroot
+*.code-workspace
+*.vs
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.pfx
+*appsettings.Development.json
+*launchSettings.json
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Visual Studio Trace Files
+*.e2e
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+/src/BANBAJIO.WebApi/appsettings.Production.json
+/src/BANBAJIO.WebApi/appsettings.Developer.json
+/src/BANBAJIO.WebApi/Properties/launchSettings.json
+.env
